@@ -1,0 +1,64 @@
+baseURL = 'https://Pr0kythera.github.io'
+languageCode = 'en-uk'
+title = 'Blog'
+theme = "mana"
+[params]
+  description = "Warning - may contain information"
+  favicon = "/favicon/favicon.ico"
+  heroTitleLine1 = "Pr0kythera's Blog"  # First line of hero title
+[[menus.main]]
+  name = 'Posts'
+  pageRef = '/posts'
+  weight = 20
+[pagination]
+  pageSize = 10  # Number of posts per page (default: 10)
+[params.buyMeACoffee]
+  enabled = true
+  id = "yourwidgetid"
+  description = "Support me on Buy me a coffee!"
+  message = ""  # Optional message
+  color = "#BD5FFF"  # Widget color
+  position = "Right"  # "Left" or "Right"
+  x_margin = "18"  # Horizontal margin in pixels
+  y_margin = "18"  # Vertical margin in pixels
+[params.social]
+  github = "https://github.com/Pr0kythera"
+  linkedin = "https://www.linkedin.com/in/martin-t-16225580/"
+  email = "contact.prokythera@gmail.com"
+[params.avatar]
+  url = "https://example.com/avatar.jpg"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      # Enable block-level attributes for blockquotes
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+# Table of Contents (recommended)
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 6
+    ordered = false
+# Syntax highlighting configuration
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = 'monokai'
+    tabWidth = 4
+    wrapperClass = 'highlight'
+# Output formats for search index
+[outputs]
+  home = ["HTML", "JSON"]
+# Sitemap configuration for SEO
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
