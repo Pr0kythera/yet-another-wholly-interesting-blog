@@ -4,3 +4,7 @@
 [submodule "yet-another-wholly-interesting-blog/themes/mana"]
 	path = yet-another-wholly-interesting-blog/themes/mana
 	url = https://github.com/Livour/hugo-mana-theme.git
+[submodule "yet-another-wholly-interesting-blog/public"]
+	path = yet-another-wholly-interesting-blog/public
+	url = https://github.com/Pr0kythera/pr0kythera.github.io.git
+	branch = main
