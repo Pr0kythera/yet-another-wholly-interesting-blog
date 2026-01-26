@@ -6,7 +6,7 @@ title = 'A very basic Malware analysis Machine Learning project'
 
 # Background
 
-This year, 2026 to alleviate any doubt, and this year i've set myself the ambition to focus on tangibly improving at Machine Learning and Reverse Engineering. Both are topics i've studied in my career and during my university degree. But with neither I feel like I have as much knowledge of as I would like, whilst also happening to be fascinating fields of study.
+This year, 2026 to alleviate any doubt, I have set myself the ambition to focus on tangibly improving at Machine Learning and Reverse Engineering. Both are topics i've studied in my career and during my university degree. However I feel like I do not have as much knowledge of as I would like.
 
 Unfortunately with anything unless you're constantly exercising with an aim to improve and deepen your abilities at best you stagnate, at worst the knowledge slowly starts fading away. So how can I achieve this and where can I start?
 
