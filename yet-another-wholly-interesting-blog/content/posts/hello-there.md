@@ -1,7 +1,7 @@
 +++
 date = '2026-01-18T23:54:51Z'
 draft = false
-title = 'A very basic Malware analysis Machine Learning project'
+title = 'Building the worlds worst Machine Learning Detection engine'
 +++
 
 # Background
@@ -1066,6 +1066,8 @@ There is obviously a lot more we could do, extract strings perform hash lookups 
 While these would be worthwhile if my aim was to create a more accurate detection tool, my aim is to dig deeper into ML so instead heres what I want to take this to in February!
 
 ### Whats next?
+
+To conclude, the point I really wanted to get across based off what I've learned so far is that building a proper understanding of the domain and the data you are working with is really imperitive. And secondarily that setting a goal to build something interesting put functionally pointless has tremendous value from a learning perspective.
 
 Next month I want to dig into some totally new topics to me as most of the above was re-familiarisation:
 
